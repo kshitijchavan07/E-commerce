@@ -1,4 +1,5 @@
 {
+  "homepage": "http://kshitijchavan07.github.io/E-commerce",
   "name": "ecommerce",
   "version": "0.1.0",
   "private": true,
@@ -12,6 +13,7 @@
     "firebase": "^9.15.0",
     "font-awesome": "^4.7.0",
     "framer-motion": "^8.4.2",
+    "gh-pages": "^5.0.0",
     "mdb-react-ui-kit": "^5.1.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.0",
@@ -31,6 +33,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
