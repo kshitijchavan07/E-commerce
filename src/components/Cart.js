@@ -9,9 +9,6 @@ const Cart = () => {
   const { cart } = useSelector((state) => state.carts);
   const [price, setprice] = useState(0);
 
-
-
-
   function DeleteItem(id) {
     dispatch(Delete(id));
     toast.success("Item removed from cart");
@@ -23,7 +20,6 @@ const Cart = () => {
     });
     setprice(price);
   }
-
 
   useEffect(() => {
     Total();

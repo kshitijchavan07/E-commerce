@@ -31,15 +31,7 @@ const ProductPage = () => {
     dispatch(Add(item));
     toast.success("Item added to cart");
   };
-  function increment() {
-    setcount(count + 1);
-  }
-  function decrement() {
-    if (count <= 1) return 1;
-    else {
-      setcount(count - 1);
-    }
-  }
+
   const view = () => {
     navigate("/cart");
   };
