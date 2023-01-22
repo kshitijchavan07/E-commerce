@@ -1,0 +1,17 @@
+.comon_Sec{
+    background:
+    url(' https://media.istockphoto.com/id/1139629279/photo/top-view-of-photographer-desk-with-latptop-and-accessories.jpg?s=1024x1024&w=is&k=20&c=0SoWgx4Gx0TF0_FJDu3cm7PCHE0tOXrQJD4vcWTKQ7o=' )no-repeat ;
+    background-size: cover;
+    height:200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.comon_Sec h1{
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    padding: 30px;
+    
+}

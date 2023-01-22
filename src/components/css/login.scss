@@ -1,0 +1,41 @@
+.login{
+    height: 100vh;
+    
+    form{
+        border: 1px solid black;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 20px;
+        padding-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 5px;
+        background-color: whitesmoke;
+    }
+    label{
+        margin-bottom: 10px;
+        font-weight: 500;
+        
+    }
+    input{
+        margin-bottom: 20px;
+        
+    }
+  
+    .error{
+        text-align: center;
+        margin-top: 10px;
+        color: red;
+    }
+    .pass{
+        margin-bottom: 30px;
+    }
+    span{
+        text-align: center;
+        font-weight: 500;
+
+    }
+
+
+
+}
